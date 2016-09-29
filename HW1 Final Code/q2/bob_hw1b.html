@@ -1,0 +1,285 @@
+<html>
+	<head>
+		<title>Bar Chart</title>
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+		<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+		<style>
+
+		#barChart .bar {
+			fill: steelblue;
+		}
+
+		#barChart .bar:hover {
+			fill: brown;
+		}
+
+		#barChart2 .bar {
+			fill: green;
+		}
+
+		#barChart2 .bar:hover {
+			fill: brown;
+		}
+
+		#barChart3 .bar {
+			fill: red;
+		}
+
+		#barChart3 .bar:hover {
+			fill: brown;
+		}
+
+		.axis {
+			font: 10px sans-serif;
+		}
+
+		.axis path,
+		.axis line {
+			fill: none;
+			stroke: #000;
+			shape-rendering: crispEdges;
+		}
+
+		.x.axis path {
+			display: none;
+		}
+
+		body {
+			font: 12px sans-serif;
+		}
+
+		.d3-tip {
+		  line-height: 1;
+		  font-weight: bold;
+		  padding: 12px;
+		  background: rgba(0, 0, 0, 0.8);
+		  color: #fff;
+		  border-radius: 2px;
+		}
+
+		/* Creates a small triangle extender for the tooltip */
+		.d3-tip:after {
+		  box-sizing: border-box;
+		  display: inline;
+		  font-size: 10px;
+		  width: 100%;
+		  line-height: 1;
+		  color: rgba(0, 0, 0, 0.8);
+		  content: "\25BC";
+		  position: absolute;
+		  text-align: center;
+		}
+
+		/* Style northward tooltips differently */
+		.d3-tip.n:after {
+		  margin: -1px 0 0 0;
+		  top: 100%;
+		  left: 0;
+		}
+
+		</style>
+		<script>
+		// Define the div for the tooltip
+		var div = d3.select("body").append("div")
+		    .attr("class", "tooltip")
+		    .style("opacity", 100);
+
+		function barChart() {
+		var margin = {top: 40, right: 20, bottom: 30, left: 40},
+			width = 960 - margin.left - margin.right,
+			height = 500 - margin.top - margin.bottom;
+
+		//https://github.com/mbostock/d3/wiki/Ordinal-Scales#ordinal_rangeRoundBands
+		var x = d3.scale.ordinal()
+			.rangeRoundBands([0, width], .1);
+		//https://github.com/mbostock/d3/wiki/Quantitative-Scales#linear_range
+		var y = d3.scale.linear()
+			.range([height, 0]);
+
+		//https://github.com/mbostock/d3/wiki/SVG-Axes#_axis
+		var xAxis = d3.svg.axis()
+			.scale(x)
+			.orient("bottom");
+		//https://github.com/mbostock/d3/wiki/SVG-Axes#_axis
+		var yAxis = d3.svg.axis()
+			.scale(y)
+			.orient("left")
+			.ticks(10, "%");
+
+		var tip = d3.tip()
+  		.attr('class', 'd3-tip')
+  		.offset([-10, 0])
+  		.html(function(d) {
+    		return "<strong>Frequency:</strong> <span style='color:red'>" + d.HS + "</span>";
+  		});
+
+		var tip2 = d3.tip()
+	  	.attr('class', 'd3-tip')
+	  	.offset([-10, 0])
+	  	.html(function(d) {
+	    	return "<strong>Frequency:</strong> <span style='color:red'>" + d.BD + "</span>";
+	  	});
+
+		var tip3 = d3.tip()
+			.attr('class', 'd3-tip')
+			.offset([-10, 0])
+			.html(function(d) {
+				return "<strong>Frequency:</strong> <span style='color:red'>" + d.AD + "</span>";
+			});
+
+		var svg = d3.select("div#barChart").append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom)
+			.append("g")
+				.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+		svg.call(tip);
+
+		d3.tsv("data/2009.tsv", type, function(error, data) {
+			x.domain(data.map(function(d) { return d.PostalCode; }));
+			y.domain([0, d3.max(data, function(d) { return d.HS; })]);
+
+			svg.append("g")
+				.attr("class", "x axis")
+				.attr("transform", "translate(0," + height + ")")
+				.call(xAxis);
+
+			svg.append("g")
+				.attr("class", "y axis")
+				.call(yAxis)
+				.append("text")
+					.attr("transform", "rotate(-90)")
+					.attr("y", 6)
+					.attr("dy", ".71em")
+					.style("text-anchor", "end")
+					.text("Frequency");
+
+			svg.selectAll(".bar").data(data).enter()
+				.append("rect")
+				.attr("class", "bar")
+				.attr("x", function(d) { return x(d.PostalCode); })
+				.attr("width", x.rangeBand())
+				.attr("y", function(d) { return y(d.HS); })
+				.attr("height", function(d) { return height - y(d.HS); })
+				.on('mouseover', tip.show)
+				.on('mouseout', tip.hide);
+
+		});
+
+		var svg2 = d3.select("div#barChart2").append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom)
+			.append("g")
+				.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+		svg2.call(tip2);
+
+		d3.tsv("data/2009.tsv", type, function(error, data) {
+			x.domain(data.map(function(d) { return d.PostalCode; }));
+			y.domain([0, d3.max(data, function(d) { return d.HS; })]);
+
+			svg2.append("g")
+				.attr("class", "x axis")
+				.attr("transform", "translate(0," + height + ")")
+				.call(xAxis);
+
+			svg2.append("g")
+				.attr("class", "y axis")
+				.call(yAxis)
+				.append("text")
+					.attr("transform", "rotate(-90)")
+					.attr("y", 6)
+					.attr("dy", ".71em")
+					.style("text-anchor", "end")
+					.text("Frequency");
+
+			svg2.selectAll(".bar").data(data).enter()
+				.append("rect")
+				.attr("class", "bar")
+				.attr("x", function(d) { return x(d.PostalCode); })
+				.attr("width", x.rangeBand())
+				.attr("y", function(d) { return y(d.BD); })
+				.attr("height", function(d) { return height - y(d.BD); })
+				.on('mouseover', tip.show)
+				.on('mouseout', tip.hide);
+
+		});
+
+		var svg3 = d3.select("div#barChart3").append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom)
+			.append("g")
+				.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+		svg3.call(tip3);
+
+		d3.tsv("data/2009.tsv", type, function(error, data) {
+			x.domain(data.map(function(d) { return d.PostalCode; }));
+			y.domain([0, d3.max(data, function(d) { return d.HS; })]);
+
+			svg3.append("g")
+				.attr("class", "x axis")
+				.attr("transform", "translate(0," + height + ")")
+				.call(xAxis);
+
+			svg3.append("g")
+				.attr("class", "y axis")
+				.call(yAxis)
+				.append("text")
+					.attr("transform", "rotate(-90)")
+					.attr("y", 6)
+					.attr("dy", ".71em")
+					.style("text-anchor", "end")
+					.text("Frequency");
+
+			svg3.selectAll(".bar").data(data).enter()
+				.append("rect")
+				.attr("class", "bar")
+				.attr("x", function(d) { return x(d.PostalCode); })
+				.attr("width", x.rangeBand())
+				.attr("y", function(d) { return y(d.AD); })
+				.attr("height", function(d) { return height - y(d.AD); })
+				.on('mouseover', tip.show)
+				.on('mouseout', tip.hide);
+
+		});
+/* Title */
+		  svg.append("text")
+		    .attr("x", (width / 2))
+	      .attr("y", -10)
+				.attr("text-anchor", "middle")
+	      .style("font-size", 16)
+		    .text("High School Graduate or More");
+
+			svg2.append("text")
+				.attr("x", (width / 2))
+				.attr("y", 0)
+				.attr("text-anchor", "middle")
+				.style("font-size", 16)
+				.text("Bachelor's Degree or More");
+
+			svg3.append("text")
+				.attr("x", (width / 2))
+				.attr("y", 0)
+				.attr("text-anchor", "middle")
+				.style("font-size", 16)
+				.text("Advanced Degree or More");
+
+		function type(d) {
+			d.HS = +d.HS;
+			d.BD = +d.BD;
+			d.AD = +d.AD;
+			return d;
+		}
+		}
+		</script>
+	<title>Question 2</title>
+	</head>
+	<body onload="barChart()">
+		<br></br>
+		<h1>2009 Educational Attainment by Category</h1>
+		<div id="barChart"></div>
+		<div id="barChart2"></div>
+		<div id="barChart3"></div>
+	</body>
+</html>
