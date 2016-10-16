@@ -106,7 +106,7 @@ var svg = d3.select("body").append("svg")
       .attr("transform", "translate(-10,-10) rotate(90)");
       d3.select("#adjacencyG").append("g").call(yAxis);
       function gridOver(d,i) {
-        d3.selectAll("rect").style("stroke-width", function (p) {return p.x == d.x || p.y == d.y ? "px" : "1px"})
+        d3.selectAll("rect").style("stroke-width", function (p) {return p.x == d.x || p.y == d.y ? "3px" : "1px"})
       }
     }
   }
