@@ -86,25 +86,27 @@ var svg = d3.select("body").append("svg")
       .data(matrix)
       .enter()
       .append("rect")
-      .attr("width", 15)
-      .attr("height", 15)
-      .attr("x", function (d) {return d.x * 15})
-      .attr("y", function (d) {return d.y * 15})
+      .attr("width", 10)
+      .attr("height", 10)
+      .attr("x", function (d) {return d.x * 10})
+      .attr("y", function (d) {return d.y * 10})
       .style("stroke", "black")
       .style("stroke-width", "1px")
       .style("fill", "red")
       .style("fill", function (d) {return d.weight})
       .style("fill-opacity", function (d) {return d.weight * .2})
       .on("mouseover", gridOver)
-      var scaleSize = nodes.length * 15;
+      var scaleSize = nodes.length * 10;
       var nameScale = d3.scale.ordinal().domain(nodes.map(function (el) {return el.id})).rangePoints([0,scaleSize],1);
       xAxis = d3.svg.axis().scale(nameScale).orient("top").tickSize(4);
       yAxis = d3.svg.axis().scale(nameScale).orient("left").tickSize(4);
       d3.select("#adjacencyG").append("g").call(xAxis)
       .selectAll("text")
       .style("text-anchor", "end")
-      .attr("transform", "translate(-10,-10) rotate(90)");
-      d3.select("#adjacencyG").append("g").call(yAxis);
+	  .style("font-size", "60%")
+      .attr("transform", "translate(-10,-5) rotate(55)");
+      d3.select("#adjacencyG").append("g").call(yAxis)
+	  .style("font-size", "60%");
       function gridOver(d,i) {
         d3.selectAll("rect").style("stroke-width", function (p) {return p.x == d.x || p.y == d.y ? "3px" : "1px"})
       }

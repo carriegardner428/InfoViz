@@ -1,442 +1,883 @@
 source,target,class
 Bush vs. the Beltway,1000 Years for Revenge,orange
+1000 Years for Revenge,Bush vs. the Beltway,orange
 Charlie Wilson's War,1000 Years for Revenge,orange
+1000 Years for Revenge,Charlie Wilson's War,orange
 Losing Bin Laden,1000 Years for Revenge,orange
+1000 Years for Revenge,Losing Bin Laden,orange
 Losing Bin Laden,Bush vs. the Beltway,red
+Bush vs. the Beltway,Losing Bin Laden,red
 Sleeping With the Devil,1000 Years for Revenge,yellow
+1000 Years for Revenge,Sleeping With the Devil,yellow
 Sleeping With the Devil,Charlie Wilson's War,orange
+Charlie Wilson's War,Sleeping With the Devil,orange
 The Man Who Warned America,1000 Years for Revenge,orange
+1000 Years for Revenge,The Man Who Warned America,orange
 The Man Who Warned America,Bush vs. the Beltway,red
+Bush vs. the Beltway,The Man Who Warned America,red
 The Man Who Warned America,Charlie Wilson's War,red
+Charlie Wilson's War,The Man Who Warned America,red
 The Man Who Warned America,Losing Bin Laden,red
+Losing Bin Laden,The Man Who Warned America,red
 The Man Who Warned America,Sleeping With the Devil,orange
+Sleeping With the Devil,The Man Who Warned America,orange
 Why America Slept,1000 Years for Revenge,yellow
+1000 Years for Revenge,Why America Slept,yellow
 Why America Slept,Bush vs. the Beltway,orange
+Bush vs. the Beltway,Why America Slept,orange
 Why America Slept,Sleeping With the Devil,yellow
+Sleeping With the Devil,Why America Slept,yellow
 Why America Slept,The Man Who Warned America,orange
+The Man Who Warned America,Why America Slept,orange
 Ghost Wars,Charlie Wilson's War,orange
+Charlie Wilson's War,Ghost Wars,orange
 Ghost Wars,The Man Who Warned America,orange
+The Man Who Warned America,Ghost Wars,orange
 Ghost Wars,Why America Slept,yellow
+Why America Slept,Ghost Wars,yellow
 A National Party No More,Losing Bin Laden,red
+Losing Bin Laden,A National Party No More,red
 Bush Country,Losing Bin Laden,red
+Losing Bin Laden,Bush Country,red
 Bush Country,A National Party No More,red
+A National Party No More,Bush Country,red
 Dereliction of Duty,Losing Bin Laden,red
+Losing Bin Laden,Dereliction of Duty,red
 Dereliction of Duty,Why America Slept,orange
+Why America Slept,Dereliction of Duty,orange
 Dereliction of Duty,A National Party No More,red
+A National Party No More,Dereliction of Duty,red
 Legacy,Losing Bin Laden,red
+Losing Bin Laden,Legacy,red
 Legacy,A National Party No More,red
+A National Party No More,Legacy,red
 Legacy,Bush Country,red
+Bush Country,Legacy,red
 Legacy,Dereliction of Duty,red
+Dereliction of Duty,Legacy,red
 Off with Their Heads,Losing Bin Laden,red
+Losing Bin Laden,Off with Their Heads,red
 Off with Their Heads,Why America Slept,orange
+Why America Slept,Off with Their Heads,orange
 Off with Their Heads,A National Party No More,red
+A National Party No More,Off with Their Heads,red
 Off with Their Heads,Bush Country,red
+Bush Country,Off with Their Heads,red
 Off with Their Heads,Dereliction of Duty,red
+Dereliction of Duty,Off with Their Heads,red
 Off with Their Heads,Legacy,red
+Legacy,Off with Their Heads,red
 Persecution,Losing Bin Laden,red
+Losing Bin Laden,Persecution,red
 Persecution,A National Party No More,red
+A National Party No More,Persecution,red
 Persecution,Legacy,red
+Legacy,Persecution,red
 Persecution,Off with Their Heads,red
+Off with Their Heads,Persecution,red
 Rumsfeld's War,Losing Bin Laden,red
+Losing Bin Laden,Rumsfeld's War,red
 Rumsfeld's War,Ghost Wars,orange
+Ghost Wars,Rumsfeld's War,orange
 Rumsfeld's War,A National Party No More,red
+A National Party No More,Rumsfeld's War,red
 Rumsfeld's War,Bush Country,red
+Bush Country,Rumsfeld's War,red
 Rumsfeld's War,Legacy,red
+Legacy,Rumsfeld's War,red
 Rumsfeld's War,Off with Their Heads,red
+Off with Their Heads,Rumsfeld's War,red
 Breakdown,Losing Bin Laden,red
+Losing Bin Laden,Breakdown,red
 Breakdown,Dereliction of Duty,red
+Dereliction of Duty,Breakdown,red
 Breakdown,Off with Their Heads,red
+Off with Their Heads,Breakdown,red
 Betrayal,Losing Bin Laden,red
+Losing Bin Laden,Betrayal,red
 Betrayal,Dereliction of Duty,red
+Dereliction of Duty,Betrayal,red
 Betrayal,Breakdown,red
+Breakdown,Betrayal,red
 Shut Up and Sing,Losing Bin Laden,red
+Losing Bin Laden,Shut Up and Sing,red
 Shut Up and Sing,Legacy,red
+Legacy,Shut Up and Sing,red
 Shut Up and Sing,Off with Their Heads,red
+Off with Their Heads,Shut Up and Sing,red
 Shut Up and Sing,Persecution,red
+Persecution,Shut Up and Sing,red
 Meant To Be,Losing Bin Laden,orange
+Losing Bin Laden,Meant To Be,orange
 Meant To Be,Why America Slept,yellow
+Why America Slept,Meant To Be,yellow
 Meant To Be,Off with Their Heads,orange
+Off with Their Heads,Meant To Be,orange
 The Right Man,Losing Bin Laden,red
+Losing Bin Laden,The Right Man,red
 The Right Man,Dereliction of Duty,red
+Dereliction of Duty,The Right Man,red
 Ten Minutes from Normal,Losing Bin Laden,red
+Losing Bin Laden,Ten Minutes from Normal,red
 Ten Minutes from Normal,A National Party No More,red
+A National Party No More,Ten Minutes from Normal,red
 Ten Minutes from Normal,Bush Country,red
+Bush Country,Ten Minutes from Normal,red
 Ten Minutes from Normal,Legacy,red
+Legacy,Ten Minutes from Normal,red
 Hillary's Scheme,Losing Bin Laden,red
+Losing Bin Laden,Hillary's Scheme,red
 Hillary's Scheme,A National Party No More,red
+A National Party No More,Hillary's Scheme,red
 Hillary's Scheme,Dereliction of Duty,red
+Dereliction of Duty,Hillary's Scheme,red
 Hillary's Scheme,Legacy,red
+Legacy,Hillary's Scheme,red
 The French Betrayal of America,Losing Bin Laden,red
+Losing Bin Laden,The French Betrayal of America,red
 The French Betrayal of America,Why America Slept,orange
+Why America Slept,The French Betrayal of America,orange
 The French Betrayal of America,A National Party No More,red
+A National Party No More,The French Betrayal of America,red
 The French Betrayal of America,Legacy,red
+Legacy,The French Betrayal of America,red
 Tales from the Left Coast,Losing Bin Laden,red
+Losing Bin Laden,Tales from the Left Coast,red
 Tales from the Left Coast,A National Party No More,red
+A National Party No More,Tales from the Left Coast,red
 Tales from the Left Coast,Off with Their Heads,red
+Off with Their Heads,Tales from the Left Coast,red
 Tales from the Left Coast,Hillary's Scheme,red
+Hillary's Scheme,Tales from the Left Coast,red
 Hating America,Losing Bin Laden,red
+Losing Bin Laden,Hating America,red
 Hating America,A National Party No More,red
+A National Party No More,Hating America,red
 Hating America,Bush Country,red
+Bush Country,Hating America,red
 Hating America,Off with Their Heads,red
+Off with Their Heads,Hating America,red
 Hating America,Ten Minutes from Normal,red
+Ten Minutes from Normal,Hating America,red
 The Third Terrorist,Losing Bin Laden,red
+Losing Bin Laden,The Third Terrorist,red
 The Third Terrorist,Why America Slept,orange
+Why America Slept,The Third Terrorist,orange
 The Third Terrorist,Rumsfeld's War,red
+Rumsfeld's War,The Third Terrorist,red
 The Third Terrorist,The French Betrayal of America,red
+The French Betrayal of America,The Third Terrorist,red
 Endgame,Losing Bin Laden,red
+Losing Bin Laden,Endgame,red
 Endgame,A National Party No More,red
+A National Party No More,Endgame,red
 Endgame,Legacy,red
+Legacy,Endgame,red
 Endgame,Rumsfeld's War,red
+Rumsfeld's War,Endgame,red
 Endgame,Hating America,red
+Hating America,Endgame,red
 Spin Sisters,Losing Bin Laden,red
+Losing Bin Laden,Spin Sisters,red
 Spin Sisters,A National Party No More,red
+A National Party No More,Spin Sisters,red
 Spin Sisters,Bush Country,red
+Bush Country,Spin Sisters,red
 Spin Sisters,Legacy,red
+Legacy,Spin Sisters,red
 Spin Sisters,Tales from the Left Coast,red
+Tales from the Left Coast,Spin Sisters,red
 All the Shah's Men,Sleeping With the Devil,yellow
+Sleeping With the Devil,All the Shah's Men,yellow
 Dangerous Diplomacy,Sleeping With the Devil,orange
+Sleeping With the Devil,Dangerous Diplomacy,orange
 Dangerous Diplomacy,Why America Slept,orange
+Why America Slept,Dangerous Diplomacy,orange
 Dangerous Diplomacy,Legacy,red
+Legacy,Dangerous Diplomacy,red
 Dangerous Diplomacy,Persecution,red
+Persecution,Dangerous Diplomacy,red
 The Price of Loyalty,Sleeping With the Devil,green
+Sleeping With the Devil,The Price of Loyalty,green
 The Price of Loyalty,Ghost Wars,green
-"House of Bush, House of Saud",Sleeping With the Devil,green
-"House of Bush, House of Saud",The Price of Loyalty,blue
+Ghost Wars,The Price of Loyalty,green
+House of Bush, House of Saud,Sleeping With the Devil,green
+Sleeping With the Devil,House of Bush, House of Saud,green
+House of Bush, House of Saud,The Price of Loyalty,blue
+The Price of Loyalty,House of Bush, House of Saud,blue
 The Death of Right and Wrong,A National Party No More,red
+A National Party No More,The Death of Right and Wrong,red
 The Death of Right and Wrong,Off with Their Heads,red
+Off with Their Heads,The Death of Right and Wrong,red
 The Death of Right and Wrong,Persecution,red
+Persecution,The Death of Right and Wrong,red
 The Death of Right and Wrong,Tales from the Left Coast,red
+Tales from the Left Coast,The Death of Right and Wrong,red
 Useful Idiots,A National Party No More,red
+A National Party No More,Useful Idiots,red
 Useful Idiots,Dereliction of Duty,red
+Dereliction of Duty,Useful Idiots,red
 Useful Idiots,Off with Their Heads,red
+Off with Their Heads,Useful Idiots,red
 Useful Idiots,Tales from the Left Coast,red
+Tales from the Left Coast,Useful Idiots,red
 Useful Idiots,The Death of Right and Wrong,red
+The Death of Right and Wrong,Useful Idiots,red
 Let Freedom Ring,A National Party No More,red
+A National Party No More,Let Freedom Ring,red
 Let Freedom Ring,Dereliction of Duty,red
+Dereliction of Duty,Let Freedom Ring,red
 Let Freedom Ring,The O'Reilly Factor,red
+The O'Reilly Factor,Let Freedom Ring,red
 Those Who Trespass,Off with Their Heads,red
+Off with Their Heads,Those Who Trespass,red
 Those Who Trespass,The O'Reilly Factor,red
+The O'Reilly Factor,Those Who Trespass,red
 Those Who Trespass,Let Freedom Ring,red
+Let Freedom Ring,Those Who Trespass,red
 Bias,A National Party No More,red
+A National Party No More,Bias,red
 Bias,Dereliction of Duty,red
+Dereliction of Duty,Bias,red
 Bias,Useful Idiots,red
+Useful Idiots,Bias,red
 Bias,The O'Reilly Factor,red
+The O'Reilly Factor,Bias,red
 Bias,Let Freedom Ring,red
+Let Freedom Ring,Bias,red
 Slander,Dereliction of Duty,red
+Dereliction of Duty,Slander,red
 Slander,Off with Their Heads,red
+Off with Their Heads,Slander,red
 Slander,Useful Idiots,red
+Useful Idiots,Slander,red
 Slander,The O'Reilly Factor,red
+The O'Reilly Factor,Slander,red
 Slander,Let Freedom Ring,red
+Let Freedom Ring,Slander,red
 Slander,Bias,red
+Bias,Slander,red
 The Savage Nation,Dereliction of Duty,red
+Dereliction of Duty,The Savage Nation,red
 The Savage Nation,Off with Their Heads,red
+Off with Their Heads,The Savage Nation,red
 The Savage Nation,Useful Idiots,red
+Useful Idiots,The Savage Nation,red
 The Savage Nation,The O'Reilly Factor,red
+The O'Reilly Factor,The Savage Nation,red
 The Savage Nation,Let Freedom Ring,red
+Let Freedom Ring,The Savage Nation,red
 The Savage Nation,Slander,red
+Slander,The Savage Nation,red
 Deliver Us from Evil,A National Party No More,red
+A National Party No More,Deliver Us from Evil,red
 Deliver Us from Evil,Off with Their Heads,red
+Off with Their Heads,Deliver Us from Evil,red
 Deliver Us from Evil,Persecution,red
+Persecution,Deliver Us from Evil,red
 Deliver Us from Evil,Ten Minutes from Normal,red
+Ten Minutes from Normal,Deliver Us from Evil,red
 Deliver Us from Evil,The French Betrayal of America,red
+The French Betrayal of America,Deliver Us from Evil,red
 Deliver Us from Evil,Hating America,red
+Hating America,Deliver Us from Evil,red
 Deliver Us from Evil,The Third Terrorist,red
+The Third Terrorist,Deliver Us from Evil,red
 Deliver Us from Evil,Endgame,red
+Endgame,Deliver Us from Evil,red
 Deliver Us from Evil,Spin Sisters,red
+Spin Sisters,Deliver Us from Evil,red
 Deliver Us from Evil,Let Freedom Ring,red
+Let Freedom Ring,Deliver Us from Evil,red
 Deliver Us from Evil,The Savage Nation,red
+The Savage Nation,Deliver Us from Evil,red
 Give Me a Break,A National Party No More,red
+A National Party No More,Give Me a Break,red
 Give Me a Break,Bush Country,red
+Bush Country,Give Me a Break,red
 Give Me a Break,Off with Their Heads,red
+Off with Their Heads,Give Me a Break,red
 Give Me a Break,Spin Sisters,red
+Spin Sisters,Give Me a Break,red
 Give Me a Break,Those Who Trespass,red
+Those Who Trespass,Give Me a Break,red
 Give Me a Break,Deliver Us from Evil,red
+Deliver Us from Evil,Give Me a Break,red
 The Enemy Within,A National Party No More,red
+A National Party No More,The Enemy Within,red
 The Enemy Within,Persecution,red
+Persecution,The Enemy Within,red
 The Enemy Within,The Savage Nation,red
+The Savage Nation,The Enemy Within,red
 The Enemy Within,Deliver Us from Evil,red
+Deliver Us from Evil,The Enemy Within,red
 The Real America,A National Party No More,red
+A National Party No More,The Real America,red
 The Real America,Persecution,red
+Persecution,The Real America,red
 The Real America,Let Freedom Ring,red
+Let Freedom Ring,The Real America,red
 The Real America,The Enemy Within,red
+The Enemy Within,The Real America,red
 Who's Looking Out for You?,A National Party No More,red
+A National Party No More,Who's Looking Out for You?,red
 Who's Looking Out for You?,Off with Their Heads,red
+Off with Their Heads,Who's Looking Out for You?,red
 Who's Looking Out for You?,Persecution,red
+Persecution,Who's Looking Out for You?,red
 Who's Looking Out for You?,Let Freedom Ring,red
+Let Freedom Ring,Who's Looking Out for You?,red
 Who's Looking Out for You?,Deliver Us from Evil,red
+Deliver Us from Evil,Who's Looking Out for You?,red
 The Official Handbook Vast Right Wing Conspiracy,A National Party No More,red
+A National Party No More,The Official Handbook Vast Right Wing Conspiracy,red
 The Official Handbook Vast Right Wing Conspiracy,Bush Country,red
+Bush Country,The Official Handbook Vast Right Wing Conspiracy,red
 The Official Handbook Vast Right Wing Conspiracy,Legacy,red
+Legacy,The Official Handbook Vast Right Wing Conspiracy,red
 The Official Handbook Vast Right Wing Conspiracy,Endgame,red
+Endgame,The Official Handbook Vast Right Wing Conspiracy,red
 The Official Handbook Vast Right Wing Conspiracy,Deliver Us from Evil,red
+Deliver Us from Evil,The Official Handbook Vast Right Wing Conspiracy,red
 Power Plays,A National Party No More,orange
+A National Party No More,Power Plays,orange
 Power Plays,Off with Their Heads,orange
+Off with Their Heads,Power Plays,orange
 Arrogance,Bush Country,red
+Bush Country,Arrogance,red
 Arrogance,Legacy,red
+Legacy,Arrogance,red
 Arrogance,Off with Their Heads,red
+Off with Their Heads,Arrogance,red
 Arrogance,Persecution,red
+Persecution,Arrogance,red
 Arrogance,Shut Up and Sing,red
+Shut Up and Sing,Arrogance,red
 Arrogance,Tales from the Left Coast,red
+Tales from the Left Coast,Arrogance,red
 Arrogance,Hating America,red
+Hating America,Arrogance,red
 Arrogance,Endgame,red
+Endgame,Arrogance,red
 Arrogance,Spin Sisters,red
+Spin Sisters,Arrogance,red
 Arrogance,Useful Idiots,red
+Useful Idiots,Arrogance,red
 Arrogance,Those Who Trespass,red
+Those Who Trespass,Arrogance,red
 Arrogance,Bias,red
+Bias,Arrogance,red
 Arrogance,Deliver Us from Evil,red
+Deliver Us from Evilh,Arrogance,red
 Arrogance,Give Me a Break,red
+Give Me a Break,Arrogance,red
 Arrogance,The Enemy Within,red
+The Enemy Within,Arrogance,red
 Arrogance,The Official Handbook Vast Right Wing Conspiracy,red
+The Official Handbook Vast Right Wing Conspiracy,Arrogance,red
 Arrogance,Power Plays,orange
+Power Plays,Arrogance,orange
 The Perfect Wife,Bush Country,orange
+Bush Country,The Perfect Wife,orange
 The Perfect Wife,Ten Minutes from Normal,orange
+Ten Minutes from Normal,The Perfect Wife,orange
 The Bushes,Bush Country,red
+Bush Country,The Bushes,red
 The Bushes,Ten Minutes from Normal,red
-The Bushes,"House of Bush, House of Saud",purple
+Ten Minutes from Normal,The Bushes,red
+The Bushes,House of Bush, House of Saud,purple
+House of Bush, House of Saud,The Bushes,purple
 The Bushes,The Perfect Wife,orange
+The Perfect Wife,The Bushes,orange
 Things Worth Fighting For,Bush Country,red
+Bush Country,Things Worth Fighting For,red
 Things Worth Fighting For,Legacy,red
-"Surprise, Security, the American Experience",Bush Country,orange
+Legacy,Things Worth Fighting For,red
+Surprise, Security, the American Experience,Bush Country,orange
+Bush Country,Surprise, Security, the American Experience,orange
 Allies,Bush Country,red
+Bush Country,Allies,red
 Allies,The French Betrayal of America,red
-Allies,"Surprise, Security, the American Experience",orange
+The French Betrayal of America,Allies,red
+Allies,Surprise, Security, the American Experience,orange
+Surprise, Security, the American Experience,Allies,orange
 Why Courage Matters,Ten Minutes from Normal,red
+Ten Minutes from Normal,Why Courage Matters,red
 Why Courage Matters,Hating America,red
+Hating America,Why Courage Matters,red
 Why Courage Matters,Endgame,red
+Endgame,Why Courage Matters,red
 Why Courage Matters,Deliver Us from Evil,red
+Deliver Us from Evil,Why Courage Matters,red
 Hollywood Interrupted,Off with Their Heads,red
+Off with Their Heads,Hollywood Interrupted,red
 Hollywood Interrupted,Tales from the Left Coast,red
+Tales from the Left Coast,Hollywood Interrupted,red
 Hollywood Interrupted,Spin Sisters,red
+Spin Sisters,Hollywood Interrupted,red
 Hollywood Interrupted,Deliver Us from Evil,red
+Deliver Us from Evil,Hollywood Interrupted,red
 Hollywood Interrupted,Give Me a Break,red
+Give Me a Break,Hollywood Interrupted,red
 Hollywood Interrupted,Arrogance,red
+Arrogance,Hollywood Interrupted,red
 Fighting Back,Dereliction of Duty,red
+Dereliction of Duty,Fighting Back,red
 Fighting Back,Off with Their Heads,red
+Off with Their Heads,Fighting Back,red
 Fighting Back,Breakdown,red
+Breakdown,Fighting Back,red
 Fighting Back,The Right Man,red
+The Right Man,Fighting Back,red
 We Will Prevail,Legacy,red
+Legacy,We Will Prevail,red
 We Will Prevail,The Right Man,red
+The Right Man,We Will Prevail,red
 We Will Prevail,The Real America,red
+The Real America,We Will Prevail,red
 The Faith of George W Bush,Persecution,red
+Persecution,The Faith of George W Bush,red
 The Faith of George W Bush,Ten Minutes from Normal,red
+Ten Minutes from Normal,The Faith of George W Bush,red
 The Faith of George W Bush,The Perfect Wife,orange
+The Perfect Wife,The Faith of George W Bush,orange
 The Faith of George W Bush,The Bushes,red
+The Bushes,The Faith of George W Bush,red
 The Faith of George W Bush,We Will Prevail,red
+We Will Prevail,The Faith of George W Bush,red
 Rise of the Vulcans,Ghost Wars,orange
+Ghost Wars,Rise of the Vulcans,orange
 Rise of the Vulcans,Rumsfeld's War,red
+Rumsfeld's War,Rise of the Vulcans,red
 Rise of the Vulcans,The Price of Loyalty,purple
+The Price of Loyalty,Rise of the Vulcans,purple
 Rise of the Vulcans,The Bushes,red
+The Bushes,Rise of the Vulcans,red
 Rise of the Vulcans,Things Worth Fighting For,red
-Rise of the Vulcans,"Surprise, Security, the American Experience",orange
+Things Worth Fighting For,Rise of the Vulcans,red
+Rise of the Vulcans,Surprise, Security, the American Experience,orange
+Surprise, Security, the American Experience,Rise of the Vulcans,orange
 Rise of the Vulcans,Allies,red
+Allies,Rise of the Vulcans,red
 Stupid White Men,Downsize This!,blue
+Downsize This!,Stupid White Men,blue
 Rush Limbaugh Is a Big Fat Idiot,Downsize This!,blue
+Downsize This!,Rush Limbaugh Is a Big Fat Idiot,blue
 The Best Democracy Money Can Buy,Downsize This!,blue
+Downsize This!,The Best Democracy Money Can Buy,blue
 The Best Democracy Money Can Buy,Stupid White Men,blue
+Stupid White Men,The Best Democracy Money Can Buy,blue
 The Culture of Fear,Downsize This!,blue
+Downsize This!,The Culture of Fear,blue
 The Culture of Fear,Stupid White Men,blue
+Stupid White Men,The Culture of Fear,blue
 The Culture of Fear,The Best Democracy Money Can Buy,blue
-America Unbound,"Surprise, Security, the American Experience",green
+The Best Democracy Money Can Buy,The Culture of Fear,blue
+America Unbound,Surprise, Security, the American Experience,green
+Surprise, Security, the American Experience,America Unbound,green
 America Unbound,Allies,purple
+Allies,America Unbound,purple
 America Unbound,Rise of the Vulcans,purple
-The Choice,"Surprise, Security, the American Experience",green
+Rise of the Vulcans,America Unbound,purple
+The Choice,Surprise, Security, the American Experience,green
+Surprise, Security, the American Experience,The Choice,green
 The Choice,Rise of the Vulcans,purple
+Rise of the Vulcans,The Choice,purple
 The Choice,America Unbound,blue
+America Unbound,The Choice,blue
 The Great Unraveling,All the Shah's Men,green
+All the Shah's Men,The Great Unraveling,green
 The Great Unraveling,The Price of Loyalty,blue
+The Price of Loyalty,The Great Unraveling,blue
 The Great Unraveling,America Unbound,blue
+America Unbound,The Great Unraveling,blue
 Rogue Nation,The Price of Loyalty,blue
+The Price of Loyalty,Rogue Nation,blue
 Rogue Nation,America Unbound,blue
+America Unbound,Rogue Nation,blue
 Rogue Nation,The Choice,blue
+The Choice,Rogue Nation,blue
 Rogue Nation,The Great Unraveling,blue
+The Great Unraveling,Rogue Nation,blue
 Soft Power,Rise of the Vulcans,purple
+Rise of the Vulcans,Soft Power,purple
 Soft Power,America Unbound,blue
+America Unbound,Soft Power,blue
 Soft Power,The Choice,blue
-Colossus,"Surprise, Security, the American Experience",yellow
+The Choice,Soft Power,blue
+Colossus,Surprise, Security, the American Experience,yellow
+Surprise, Security, the American Experience,Colossus,yellow
 Colossus,Rise of the Vulcans,orange
+Rise of the Vulcans,Colossus,orange
 Colossus,America Unbound,green
+America Unbound,Colossus,green
 Colossus,The Choice,green
+The Choice,Colossus,green
 The Sorrows of Empire,The Price of Loyalty,blue
+The Price of Loyalty,The Sorrows of Empire,blue
 The Sorrows of Empire,America Unbound,blue
+America Unbound,The Sorrows of Empire,blue
 The Sorrows of Empire,The Great Unraveling,blue
+The Great Unraveling,The Sorrows of Empire,blue
 Against All Enemies,Ghost Wars,green
+Ghost Wars,Against All Enemies,green
 Against All Enemies,Soft Power,blue
+Soft Power,Against All Enemies,blue
 Against All Enemies,The Sorrows of Empire,blue
+The Sorrows of Empire,Against All Enemies,blue
 American Dynasty,All the Shah's Men,green
+All the Shah's Men,American Dynasty,green
 American Dynasty,The Bushes,purple
+The Bushes,American Dynasty,purple
 American Dynasty,The Great Unraveling,blue
+The Great Unraveling,American Dynasty,blue
 American Dynasty,The Sorrows of Empire,blue
+The Sorrows of Empire,American Dynasty,blue
 American Dynasty,Against All Enemies,blue
+Against All Enemies,American Dynasty,blue
 Big Lies,The Price of Loyalty,blue
-Big Lies,"House of Bush, House of Saud",blue
+The Price of Loyalty,Big Lies,blue
+Big Lies,House of Bush, House of Saud,blue
+House of Bush, House of Saud,Big Lies,blue
 Big Lies,The Great Unraveling,blue
+The Great Unraveling,Big Lies,blue
 Big Lies,Against All Enemies,blue
+Against All Enemies,Big Lies,blue
 Big Lies,American Dynasty,blue
+American Dynasty,Big Lies,blue
 The Lies of George W. Bush,The Price of Loyalty,blue
-The Lies of George W. Bush,"House of Bush, House of Saud",blue
+The Price of Loyalty,The Lies of George W. Bush,blue
+The Lies of George W. Bush,House of Bush, House of Saud,blue
+House of Bush, House of Saud,The Lies of George W. Bush,blue
 The Lies of George W. Bush,The Great Unraveling,blue
+The Great Unraveling,The Lies of George W. Bush,blue
 The Lies of George W. Bush,Against All Enemies,blue
+Against All Enemies,The Lies of George W. Bush,blue
 The Lies of George W. Bush,American Dynasty,blue
+American Dynasty,The Lies of George W. Bush,blue
 The Lies of George W. Bush,Big Lies,blue
+Big Lies,The Lies of George W. Bush,blue
 Worse Than Watergate,The Price of Loyalty,blue
-Worse Than Watergate,"House of Bush, House of Saud",blue
+The Price of Loyalty,Worse Than Watergate,blue
+Worse Than Watergate,House of Bush, House of Saud,blue
+House of Bush, House of Saud,Worse Than Watergate,blue
 Worse Than Watergate,The Sorrows of Empire,blue
+The Sorrows of Empire,Worse Than Watergate,blue
 Worse Than Watergate,Against All Enemies,blue
+Against All Enemies,Worse Than Watergate,blue
 Worse Than Watergate,American Dynasty,blue
+American Dynasty,Worse Than Watergate,blue
 Worse Than Watergate,Big Lies,blue
+Big Lies,Worse Than Watergate,blue
 Worse Than Watergate,The Lies of George W. Bush,blue
+The Lies of George W. Bush,Worse Than Watergate,blue
 Plan of Attack,The Price of Loyalty,green
-Plan of Attack,"House of Bush, House of Saud",green
+The Price of Loyalty,Plan of Attack,green
+Plan of Attack,House of Bush, House of Saud,green
+House of Bush, House of Saud,Plan of Attack,green
 Plan of Attack,The Bushes,orange
+The Bushes,Plan of Attack,orange
 Plan of Attack,Why Courage Matters,orange
+Why Courage Matters,Plan of Attack,orange
 Plan of Attack,The Great Unraveling,green
+The Great Unraveling,Plan of Attack,green
 Plan of Attack,Against All Enemies,green
+Against All Enemies,Plan of Attack,green
 Plan of Attack,American Dynasty,green
+American Dynasty,Plan of Attack,green
 Plan of Attack,Worse Than Watergate,green
+Worse Than Watergate,Plan of Attack,green
 Bush at War,The Right Man,red
+The Right Man,Bush at War,red
 Bush at War,The Price of Loyalty,purple
-Bush at War,"House of Bush, House of Saud",purple
+The Price of Loyalty,Bush at War,purple
+Bush at War,House of Bush, House of Saud,purple
+House of Bush, House of Saud,Bush at War,purple
 Bush at War,Rise of the Vulcans,red
+Rise of the Vulcans,Bush at War,red
 Bush at War,Against All Enemies,purple
+Against All Enemies,Bush at War,purple
 Bush at War,Worse Than Watergate,purple
+Worse Than Watergate,Bush at War,purple
 Bush at War,Plan of Attack,orange
-The New Pearl Harbor,"House of Bush, House of Saud",blue
+Plan of Attack,Bush at War,orange
+The New Pearl Harbor,House of Bush, House of Saud,blue
+House of Bush, House of Saud,The New Pearl Harbor,blue
 The New Pearl Harbor,Against All Enemies,blue
+Against All Enemies,The New Pearl Harbor,blue
 The New Pearl Harbor,American Dynasty,blue
+American Dynasty,The New Pearl Harbor,blue
 The New Pearl Harbor,The Lies of George W. Bush,blue
+The Lies of George W. Bush,The New Pearl Harbor,blue
 The New Pearl Harbor,Worse Than Watergate,blue
+Worse Than Watergate,The New Pearl Harbor,blue
 Bush women,The Price of Loyalty,blue
+The Price of Loyalty,Bush women,blue
 Bush women,Against All Enemies,blue
+Against All Enemies,Bush women,blue
 Bush women,American Dynasty,blue
+American Dynasty,Bush women,blue
 Bush women,The Lies of George W. Bush,blue
+The Lies of George W. Bush,Bush women,blue
 Bush women,Worse Than Watergate,blue
+Worse Than Watergate,Bush women,blue
 The Bubble of American Supremacy,The Price of Loyalty,blue
+The Price of Loyalty,The Bubble of American Supremacy,blue
 The Bubble of American Supremacy,The Great Unraveling,blue
+The Great Unraveling,The Bubble of American Supremacy,blue
 The Bubble of American Supremacy,Against All Enemies,blue
+Against All Enemies,The Bubble of American Supremacy,blue
 The Bubble of American Supremacy,American Dynasty,blue
+American Dynasty,The Bubble of American Supremacy,blue
 Living History,Against All Enemies,blue
+Against All Enemies,Living History,blue
 The Politics of Truth,The Price of Loyalty,blue
-The Politics of Truth,"House of Bush, House of Saud",blue
+The Price of Loyalty,The Politics of Truth,blue
+The Politics of Truth,House of Bush, House of Saud,blue
+House of Bush, House of Saud,The Politics of Truth,blue
 The Politics of Truth,Against All Enemies,blue
+Against All Enemies,The Politics of Truth,blue
 The Politics of Truth,American Dynasty,blue
+American Dynasty,The Politics of Truth,blue
 The Politics of Truth,Big Lies,blue
+Big Lies,The Politics of Truth,blue
 The Politics of Truth,The Lies of George W. Bush,blue
+The Lies of George W. Bush,The Politics of Truth,blue
 The Politics of Truth,Worse Than Watergate,blue
+Worse Than Watergate,The Politics of Truth,blue
 The Politics of Truth,Plan of Attack,green
+Plan of Attack,The Politics of Truth,green
 Fanatics and Fools,The Price of Loyalty,blue
+The Price of Loyalty,Fanatics and Fools,blue
 Fanatics and Fools,Against All Enemies,blue
+Against All Enemies,Fanatics and Fools,blue
 Fanatics and Fools,Big Lies,blue
+Big Lies,Fanatics and Fools,blue
 Fanatics and Fools,Worse Than Watergate,blue
+Worse Than Watergate,Fanatics and Fools,blue
 Fanatics and Fools,Plan of Attack,green
+Plan of Attack,Fanatics and Fools,green
 Bushwhacked,The Price of Loyalty,blue
+The Price of Loyalty,Bushwhacked,blue
 Bushwhacked,Stupid White Men,blue
+Stupid White Men,Bushwhacked,blue
 Bushwhacked,The Best Democracy Money Can Buy,blue
+The Best Democracy Money Can Buy,Bushwhacked,blue
 Bushwhacked,The Great Unraveling,blue
+The Great Unraveling,Bushwhacked,blue
 Bushwhacked,American Dynasty,blue
+American Dynasty,Bushwhacked,blue
 Bushwhacked,Big Lies,blue
+Big Lies,Bushwhacked,blue
 Bushwhacked,The Lies of George W. Bush,blue
+The Lies of George W. Bush,Bushwhacked,blue
 Bushwhacked,Worse Than Watergate,blue
+Worse Than Watergate,Bushwhacked,blue
 Bushwhacked,Plan of Attack,green
+Plan of Attack,Bushwhacked,green
 Bushwhacked,Bush women,blue
+Bush women,Bushwhacked,blue
 Bushwhacked,Living History,blue
+Living History,Bushwhacked,blue
 Bushwhacked,The Politics of Truth,blue
+The Politics of Truth,Bushwhacked,blue
 Bushwhacked,Fanatics and Fools,blue
+Fanatics and Fools,Bushwhacked,blue
 Disarming Iraq,Ghost Wars,green
+Ghost Wars,Disarming Iraq,green
 Disarming Iraq,Rise of the Vulcans,purple
+Rise of the Vulcans,Disarming Iraq,purple
 Disarming Iraq,The Choice,blue
+The Choice,Disarming Iraq,blue
 Disarming Iraq,The Great Unraveling,blue
+The Great Unraveling,Disarming Iraq,blue
 Disarming Iraq,American Dynasty,blue
+American Dynasty,Disarming Iraq,blue
 Lies and the Lying Liars Who Tell Them,The Price of Loyalty,blue
+The Price of Loyalty,Lies and the Lying Liars Who Tell Them,blue
 Lies and the Lying Liars Who Tell Them,Stupid White Men,blue
+Stupid White Men,Lies and the Lying Liars Who Tell Them,blue
 Lies and the Lying Liars Who Tell Them,Rush Limbaugh Is a Big Fat Idiot,blue
+Rush Limbaugh Is a Big Fat Idiot,Lies and the Lying Liars Who Tell Them,blue
 Lies and the Lying Liars Who Tell Them,The Great Unraveling,blue
+The Great Unraveling,Lies and the Lying Liars Who Tell Them,blue
 Lies and the Lying Liars Who Tell Them,American Dynasty,blue
+American Dynasty,Lies and the Lying Liars Who Tell Them,blue
 Lies and the Lying Liars Who Tell Them,Big Lies,blue
+Big Lies,Lies and the Lying Liars Who Tell Them,blue
 Lies and the Lying Liars Who Tell Them,Plan of Attack,green
+Plan of Attack,Lies and the Lying Liars Who Tell Them,green
 Lies and the Lying Liars Who Tell Them,Living History,blue
+Living History,Lies and the Lying Liars Who Tell Them,blue
 Lies and the Lying Liars Who Tell Them,Bushwhacked,blue
+Bushwhacked,Lies and the Lying Liars Who Tell Them,blue
 MoveOn's 50 Ways to Love Your Country,American Dynasty,blue
+American Dynasty,MoveOn's 50 Ways to Love Your Country,blue
 MoveOn's 50 Ways to Love Your Country,The Lies of George W. Bush,blue
+The Lies of George W. Bush,MoveOn's 50 Ways to Love Your Country,blue
 MoveOn's 50 Ways to Love Your Country,Fanatics and Fools,blue
+Fanatics and Fools,MoveOn's 50 Ways to Love Your Country,blue
 MoveOn's 50 Ways to Love Your Country,Bushwhacked,blue
+Bushwhacked,MoveOn's 50 Ways to Love Your Country,blue
 The Buying of the President 2004,The Great Unraveling,blue
+The Great Unraveling,The Buying of the President 2004,blue
 The Buying of the President 2004,American Dynasty,blue
+American Dynasty,The Buying of the President 2004,blue
 The Buying of the President 2004,The Lies of George W. Bush,blue
+The Lies of George W. Bush,The Buying of the President 2004,blue
 The Buying of the President 2004,Bushwhacked,blue
+Bushwhacked,The Buying of the President 2004,blue
 Perfectly Legal,The Great Unraveling,blue
+The Great Unraveling,Perfectly Legal,blue
 Perfectly Legal,American Dynasty,blue
+American Dynasty,Perfectly Legal,blue
 Perfectly Legal,Big Lies,blue
+Big Lies,Perfectly Legal,blue
 Perfectly Legal,Bushwhacked,blue
+Bushwhacked,Perfectly Legal,blue
 Perfectly Legal,Lies and the Lying Liars Who Tell Them,blue
+Lies and the Lying Liars Who Tell Them,Perfectly Legal,blue
 Perfectly Legal,The Buying of the President 2004,blue
+The Buying of the President 2004,Perfectly Legal,blue
 Hegemony or Survival,The Great Unraveling,blue
+The Great Unraveling,Hegemony or Survival,blue
 Hegemony or Survival,The Sorrows of Empire,blue
+The Sorrows of Empire,Hegemony or Survival,blue
 Hegemony or Survival,American Dynasty,blue
-The Exception to the Rulers,"House of Bush, House of Saud",blue
+American Dynasty,Hegemony or Survival,blue
+The Exception to the Rulers,House of Bush, House of Saud,blue
+House of Bush, House of Saud,The Exception to the Rulers,blue
 The Exception to the Rulers,American Dynasty,blue
+American Dynasty,The Exception to the Rulers,blue
 The Exception to the Rulers,The Lies of George W. Bush,blue
+The Lies of George W. Bush,The Exception to the Rulers,blue
 The Exception to the Rulers,Worse Than Watergate,blue
+Worse Than Watergate,The Exception to the Rulers,blue
 The Exception to the Rulers,Bush women,blue
+Bush women,The Exception to the Rulers,blue
 The Exception to the Rulers,Hegemony or Survival,blue
+Hegemony or Survival,The Exception to the Rulers,blue
 Freethinkers,American Dynasty,blue
+American Dynasty,Freethinkers,blue
 Freethinkers,Big Lies,blue
+Big Lies,Freethinkers,blue
 Freethinkers,Worse Than Watergate,blue
+Worse Than Watergate,Freethinkers,blue
 Had Enough?,The Price of Loyalty,blue
+The Price of Loyalty,Had Enough?,blue
 Had Enough?,The Great Unraveling,blue
+The Great Unraveling,Had Enough?,blue
 Had Enough?,Big Lies,blue
+Big Lies,Had Enough?,blue
 Had Enough?,Lies and the Lying Liars Who Tell Them,blue
-"It's Still the Economy, Stupid!",Big Lies,blue
-"It's Still the Economy, Stupid!",Bushwhacked,blue
-"It's Still the Economy, Stupid!",Had Enough?,blue
+Lies and the Lying Liars Who Tell Them,Had Enough?,blue
+It's Still the Economy, Stupid!,Big Lies,blue
+Big Lies,It's Still the Economy, Stupid!,blue
+It's Still the Economy, Stupid!,Bushwhacked,blue
+Bushwhacked,It's Still the Economy, Stupid!,blue
+It's Still the Economy, Stupid!,Had Enough?,blue
+Had Enough?,It's Still the Economy, Stupid!,blue
 We're Right They're Wrong,Rush Limbaugh Is a Big Fat Idiot,blue
+Rush Limbaugh Is a Big Fat Idiot,We're Right They're Wrong,blue
 We're Right They're Wrong,Big Lies,blue
-We're Right They're Wrong,"It's Still the Economy, Stupid!",blue
+Big Lies,We're Right They're Wrong,blue
+We're Right They're Wrong,It's Still the Economy, Stupid!,blue
+It's Still the Economy, Stupid!,We're Right They're Wrong,blue
 What Liberal Media?,The Great Unraveling,blue
+The Great Unraveling,What Liberal Media?,blue
 What Liberal Media?,Big Lies,blue
+Big Lies,What Liberal Media?,blue
 What Liberal Media?,Bushwhacked,blue
-What Liberal Media?,"It's Still the Economy, Stupid!",blue
+Bushwhacked,What Liberal Media?,blue
+What Liberal Media?,It's Still the Economy, Stupid!,blue
+It's Still the Economy, Stupid!,What Liberal Media?,blue
 The Clinton Wars,The Great Unraveling,blue
+The Great Unraveling,The Clinton Wars,blue
 The Clinton Wars,Big Lies,blue
+Big Lies,The Clinton Wars,blue
 The Clinton Wars,Living History,blue
+Living History,The Clinton Wars,blue
 The Clinton Wars,Bushwhacked,blue
+Bushwhacked,The Clinton Wars,blue
 The Clinton Wars,Lies and the Lying Liars Who Tell Them,blue
+Lies and the Lying Liars Who Tell Them,The Clinton Wars,blue
 The Clinton Wars,What Liberal Media?,blue
+What Liberal Media?,The Clinton Wars,blue
 Weapons of Mass Deception,Big Lies,blue
+Big Lies,Weapons of Mass Deception,blue
 Weapons of Mass Deception,The Lies of George W. Bush,blue
+The Lies of George W. Bush,Weapons of Mass Deception,blue
 Weapons of Mass Deception,MoveOn's 50 Ways to Love Your Country,blue
+MoveOn's 50 Ways to Love Your Country,Weapons of Mass Deception,blue
 Weapons of Mass Deception,The Exception to the Rulers,blue
-"Dude, Where's My Country?",The Price of Loyalty,blue
-"Dude, Where's My Country?",Downsize This!,blue
-"Dude, Where's My Country?",Stupid White Men,blue
-"Dude, Where's My Country?",The Best Democracy Money Can Buy,blue
-"Dude, Where's My Country?",The Culture of Fear,blue
-"Dude, Where's My Country?",The Great Unraveling,blue
-"Dude, Where's My Country?",Big Lies,blue
-"Dude, Where's My Country?",The Lies of George W. Bush,blue
-"Dude, Where's My Country?",Bushwhacked,blue
-"Dude, Where's My Country?",Hegemony or Survival,blue
-"Dude, Where's My Country?",Had Enough?,blue
+The Exception to the Rulers,Weapons of Mass Deception,blue
+Dude, Where's My Country?,The Price of Loyalty,blue
+The Price of Loyalty,Dude, Where's My Country?,blue
+Dude, Where's My Country?,Downsize This!,blue
+Downsize This!,Dude, Where's My Country?,blue
+Dude, Where's My Country?,Stupid White Men,blue
+Stupid White Men,Dude, Where's My Country?,blue
+Dude, Where's My Country?,The Best Democracy Money Can Buy,blue
+The Best Democracy Money Can Buy,Dude, Where's My Country?,blue
+Dude, Where's My Country?,The Culture of Fear,blue
+The Culture of Fear,Dude, Where's My Country?,blue
+Dude, Where's My Country?,The Great Unraveling,blue
+The Great Unraveling,Dude, Where's My Country?,blue
+Dude, Where's My Country?,Big Lies,blue
+Big Lies,Dude, Where's My Country?,blue
+Dude, Where's My Country?,The Lies of George W. Bush,blue
+The Lies of George W. Bush,Dude, Where's My Country?,blue
+Dude, Where's My Country?,Bushwhacked,blue
+Bushwhacked,Dude, Where's My Country?,blue
+Dude, Where's My Country?,Hegemony or Survival,blue
+Hegemony or Survival,Dude, Where's My Country?,blue
+Dude, Where's My Country?,Had Enough?,blue
+Had Enough?,Dude, Where's My Country?,blue
 Thieves in High Places,The Best Democracy Money Can Buy,blue
+The Best Democracy Money Can Buy,Thieves in High Places,blue
 Thieves in High Places,The Great Unraveling,blue
+The Great Unraveling,Thieves in High Places,blue
 Thieves in High Places,Big Lies,blue
+Big Lies,Thieves in High Places,blue
 Thieves in High Places,Bush women,blue
+Bush women,Thieves in High Places,blue
 Thieves in High Places,Fanatics and Fools,blue
+Fanatics and Fools,Thieves in High Places,blue
 Thieves in High Places,Bushwhacked,blue
+Bushwhacked,Thieves in High Places,blue
 Thieves in High Places,Lies and the Lying Liars Who Tell Them,blue
+Lies and the Lying Liars Who Tell Them,Thieves in High Places,blue
 Thieves in High Places,The Exception to the Rulers,blue
+The Exception to the Rulers,Thieves in High Places,blue
 Thieves in High Places,What Liberal Media?,blue
+What Liberal Media?,Thieves in High Places,blue
 Thieves in High Places,Weapons of Mass Deception,blue
-Thieves in High Places,"Dude, Where's My Country?",blue
+Weapons of Mass Deception,Thieves in High Places,blue
+Thieves in High Places,Dude, Where's My Country?,blue
+Dude, Where's My Country?,Thieves in High Places,blue
 Shrub,Rush Limbaugh Is a Big Fat Idiot,blue
+Rush Limbaugh Is a Big Fat Idiot,Shrub,blue
 Shrub,Bushwhacked,blue
+Bushwhacked,Shrub,blue
 Shrub,Lies and the Lying Liars Who Tell Them,blue
-Shrub,"It's Still the Economy, Stupid!",blue
+Lies and the Lying Liars Who Tell Them,Shrub,blue
+Shrub,It's Still the Economy, Stupid!,blue
+It's Still the Economy, Stupid!,Shrub,blue
 Shrub,Thieves in High Places,blue
+Thieves in High Places,Shrub,blue
 Buck Up Suck Up,Power Plays,green
+Power Plays,Buck Up Suck Up,green
 Buck Up Suck Up,Had Enough?,blue
-Buck Up Suck Up,"It's Still the Economy, Stupid!",blue
+Had Enough?,Buck Up Suck Up,blue
+Buck Up Suck Up,It's Still the Economy, Stupid!,blue
+It's Still the Economy, Stupid!,Buck Up Suck Up,blue
 Buck Up Suck Up,We're Right They're Wrong,blue
+We're Right They're Wrong,Buck Up Suck Up,blue
 The Future of Freedom,Rogue Nation,green
+Rogue Nation,The Future of Freedom,green
 Empire,Rogue Nation,green
+Rogue Nation,Empire,green
 Empire,Colossus,yellow
+Colossus,Empire,yellow
 Empire,The Future of Freedom,yellow
+The Future of Freedom,Empire,yellow
