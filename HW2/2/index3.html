@@ -39,12 +39,16 @@ path.domain {
 </style>
 <body onload="adjacency()">
 
+
+
 <div id="vizcontainer">
 <!-- <svg style="width:500px;height:500px;border:1px lightgray solid;" /> -->
 
 </div>
   <footer>
 <script>
+
+
 var // width = 1000,
     width = 2000,
     // height = 600,
@@ -104,7 +108,7 @@ var svg = d3.select("body").append("svg")
       .selectAll("text")
       .style("text-anchor", "end")
 	  .style("font-size", "60%")
-      .attr("transform", "translate(-10,-5) rotate(55)");
+      .attr("transform", "translate(-5,-3) rotate(55)");
       d3.select("#adjacencyG").append("g").call(yAxis)
 	  .style("font-size", "60%");
       function gridOver(d,i) {
