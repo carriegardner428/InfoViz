@@ -201,10 +201,10 @@ The Price of Loyalty,Sleeping With the Devil,green
 Sleeping With the Devil,The Price of Loyalty,green
 The Price of Loyalty,Ghost Wars,green
 Ghost Wars,The Price of Loyalty,green
-House of Bush, House of Saud,Sleeping With the Devil,green
-Sleeping With the Devil,House of Bush, House of Saud,green
-House of Bush, House of Saud,The Price of Loyalty,blue
-The Price of Loyalty,House of Bush, House of Saud,blue
+"House of Bush, House of Saud",Sleeping With the Devil,green
+Sleeping With the Devil,"House of Bush, House of Saud",green
+"House of Bush, House of Saud",The Price of Loyalty,blue
+The Price of Loyalty,"House of Bush, House of Saud",blue
 The Death of Right and Wrong,A National Party No More,red
 A National Party No More,The Death of Right and Wrong,red
 The Death of Right and Wrong,Off with Their Heads,red
@@ -385,22 +385,22 @@ The Bushes,Bush Country,red
 Bush Country,The Bushes,red
 The Bushes,Ten Minutes from Normal,red
 Ten Minutes from Normal,The Bushes,red
-The Bushes,House of Bush, House of Saud,purple
-House of Bush, House of Saud,The Bushes,purple
+The Bushes,"House of Bush, House of Saud",purple
+"House of Bush, House of Saud",The Bushes,purple
 The Bushes,The Perfect Wife,orange
 The Perfect Wife,The Bushes,orange
 Things Worth Fighting For,Bush Country,red
 Bush Country,Things Worth Fighting For,red
 Things Worth Fighting For,Legacy,red
 Legacy,Things Worth Fighting For,red
-Surprise, Security, the American Experience,Bush Country,orange
-Bush Country,Surprise, Security, the American Experience,orange
+"Surprise, Security, the American Experience",Bush Country,orange
+Bush Country,"Surprise, Security, the American Experience",orange
 Allies,Bush Country,red
 Bush Country,Allies,red
 Allies,The French Betrayal of America,red
 The French Betrayal of America,Allies,red
-Allies,Surprise, Security, the American Experience,orange
-Surprise, Security, the American Experience,Allies,orange
+Allies,"Surprise, Security, the American Experience",orange
+"Surprise, Security, the American Experience",Allies,orange
 Why Courage Matters,Ten Minutes from Normal,red
 Ten Minutes from Normal,Why Courage Matters,red
 Why Courage Matters,Hating America,red
@@ -455,8 +455,8 @@ Rise of the Vulcans,The Bushes,red
 The Bushes,Rise of the Vulcans,red
 Rise of the Vulcans,Things Worth Fighting For,red
 Things Worth Fighting For,Rise of the Vulcans,red
-Rise of the Vulcans,Surprise, Security, the American Experience,orange
-Surprise, Security, the American Experience,Rise of the Vulcans,orange
+Rise of the Vulcans,"Surprise, Security, the American Experience",orange
+"Surprise, Security, the American Experience",Rise of the Vulcans,orange
 Rise of the Vulcans,Allies,red
 Allies,Rise of the Vulcans,red
 Stupid White Men,Downsize This!,blue
@@ -473,14 +473,14 @@ The Culture of Fear,Stupid White Men,blue
 Stupid White Men,The Culture of Fear,blue
 The Culture of Fear,The Best Democracy Money Can Buy,blue
 The Best Democracy Money Can Buy,The Culture of Fear,blue
-America Unbound,Surprise, Security, the American Experience,green
-Surprise, Security, the American Experience,America Unbound,green
+America Unbound,"Surprise, Security, the American Experience",green
+"Surprise, Security, the American Experience",America Unbound,green
 America Unbound,Allies,purple
 Allies,America Unbound,purple
 America Unbound,Rise of the Vulcans,purple
 Rise of the Vulcans,America Unbound,purple
-The Choice,Surprise, Security, the American Experience,green
-Surprise, Security, the American Experience,The Choice,green
+The Choice,"Surprise, Security, the American Experience",green
+"Surprise, Security, the American Experience",The Choice,green
 The Choice,Rise of the Vulcans,purple
 Rise of the Vulcans,The Choice,purple
 The Choice,America Unbound,blue
@@ -505,8 +505,8 @@ Soft Power,America Unbound,blue
 America Unbound,Soft Power,blue
 Soft Power,The Choice,blue
 The Choice,Soft Power,blue
-Colossus,Surprise, Security, the American Experience,yellow
-Surprise, Security, the American Experience,Colossus,yellow
+Colossus,"Surprise, Security, the American Experience",yellow
+"Surprise, Security, the American Experience",Colossus,yellow
 Colossus,Rise of the Vulcans,orange
 Rise of the Vulcans,Colossus,orange
 Colossus,America Unbound,green
@@ -537,8 +537,8 @@ American Dynasty,Against All Enemies,blue
 Against All Enemies,American Dynasty,blue
 Big Lies,The Price of Loyalty,blue
 The Price of Loyalty,Big Lies,blue
-Big Lies,House of Bush, House of Saud,blue
-House of Bush, House of Saud,Big Lies,blue
+Big Lies,"House of Bush, House of Saud",blue
+"House of Bush, House of Saud",Big Lies,blue
 Big Lies,The Great Unraveling,blue
 The Great Unraveling,Big Lies,blue
 Big Lies,Against All Enemies,blue
@@ -547,8 +547,8 @@ Big Lies,American Dynasty,blue
 American Dynasty,Big Lies,blue
 The Lies of George W. Bush,The Price of Loyalty,blue
 The Price of Loyalty,The Lies of George W. Bush,blue
-The Lies of George W. Bush,House of Bush, House of Saud,blue
-House of Bush, House of Saud,The Lies of George W. Bush,blue
+The Lies of George W. Bush,"House of Bush, House of Saud",blue
+"House of Bush, House of Saud",The Lies of George W. Bush,blue
 The Lies of George W. Bush,The Great Unraveling,blue
 The Great Unraveling,The Lies of George W. Bush,blue
 The Lies of George W. Bush,Against All Enemies,blue
@@ -559,8 +559,8 @@ The Lies of George W. Bush,Big Lies,blue
 Big Lies,The Lies of George W. Bush,blue
 Worse Than Watergate,The Price of Loyalty,blue
 The Price of Loyalty,Worse Than Watergate,blue
-Worse Than Watergate,House of Bush, House of Saud,blue
-House of Bush, House of Saud,Worse Than Watergate,blue
+Worse Than Watergate,"House of Bush, House of Saud",blue
+"House of Bush, House of Saud",Worse Than Watergate,blue
 Worse Than Watergate,The Sorrows of Empire,blue
 The Sorrows of Empire,Worse Than Watergate,blue
 Worse Than Watergate,Against All Enemies,blue
@@ -573,8 +573,8 @@ Worse Than Watergate,The Lies of George W. Bush,blue
 The Lies of George W. Bush,Worse Than Watergate,blue
 Plan of Attack,The Price of Loyalty,green
 The Price of Loyalty,Plan of Attack,green
-Plan of Attack,House of Bush, House of Saud,green
-House of Bush, House of Saud,Plan of Attack,green
+Plan of Attack,"House of Bush, House of Saud",green
+"House of Bush, House of Saud",Plan of Attack,green
 Plan of Attack,The Bushes,orange
 The Bushes,Plan of Attack,orange
 Plan of Attack,Why Courage Matters,orange
@@ -591,8 +591,8 @@ Bush at War,The Right Man,red
 The Right Man,Bush at War,red
 Bush at War,The Price of Loyalty,purple
 The Price of Loyalty,Bush at War,purple
-Bush at War,House of Bush, House of Saud,purple
-House of Bush, House of Saud,Bush at War,purple
+Bush at War,"House of Bush, House of Saud",purple
+"House of Bush, House of Saud",Bush at War,purple
 Bush at War,Rise of the Vulcans,red
 Rise of the Vulcans,Bush at War,red
 Bush at War,Against All Enemies,purple
@@ -601,8 +601,8 @@ Bush at War,Worse Than Watergate,purple
 Worse Than Watergate,Bush at War,purple
 Bush at War,Plan of Attack,orange
 Plan of Attack,Bush at War,orange
-The New Pearl Harbor,House of Bush, House of Saud,blue
-House of Bush, House of Saud,The New Pearl Harbor,blue
+The New Pearl Harbor,"House of Bush, House of Saud",blue
+"House of Bush, House of Saud",The New Pearl Harbor,blue
 The New Pearl Harbor,Against All Enemies,blue
 Against All Enemies,The New Pearl Harbor,blue
 The New Pearl Harbor,American Dynasty,blue
@@ -633,8 +633,8 @@ Living History,Against All Enemies,blue
 Against All Enemies,Living History,blue
 The Politics of Truth,The Price of Loyalty,blue
 The Price of Loyalty,The Politics of Truth,blue
-The Politics of Truth,House of Bush, House of Saud,blue
-House of Bush, House of Saud,The Politics of Truth,blue
+The Politics of Truth,"House of Bush, House of Saud",blue
+"House of Bush, House of Saud",The Politics of Truth,blue
 The Politics of Truth,Against All Enemies,blue
 Against All Enemies,The Politics of Truth,blue
 The Politics of Truth,American Dynasty,blue
@@ -745,8 +745,8 @@ Hegemony or Survival,The Sorrows of Empire,blue
 The Sorrows of Empire,Hegemony or Survival,blue
 Hegemony or Survival,American Dynasty,blue
 American Dynasty,Hegemony or Survival,blue
-The Exception to the Rulers,House of Bush, House of Saud,blue
-House of Bush, House of Saud,The Exception to the Rulers,blue
+The Exception to the Rulers,"House of Bush, House of Saud",blue
+"House of Bush, House of Saud",The Exception to the Rulers,blue
 The Exception to the Rulers,American Dynasty,blue
 American Dynasty,The Exception to the Rulers,blue
 The Exception to the Rulers,The Lies of George W. Bush,blue
@@ -771,26 +771,26 @@ Had Enough?,Big Lies,blue
 Big Lies,Had Enough?,blue
 Had Enough?,Lies and the Lying Liars Who Tell Them,blue
 Lies and the Lying Liars Who Tell Them,Had Enough?,blue
-It's Still the Economy, Stupid!,Big Lies,blue
-Big Lies,It's Still the Economy, Stupid!,blue
-It's Still the Economy, Stupid!,Bushwhacked,blue
-Bushwhacked,It's Still the Economy, Stupid!,blue
-It's Still the Economy, Stupid!,Had Enough?,blue
-Had Enough?,It's Still the Economy, Stupid!,blue
+"It's Still the Economy, Stupid!",Big Lies,blue
+Big Lies,"It's Still the Economy, Stupid!",blue
+"It's Still the Economy, Stupid!",Bushwhacked,blue
+Bushwhacked,"It's Still the Economy, Stupid!",blue
+"It's Still the Economy, Stupid!",Had Enough?,blue
+Had Enough?,"It's Still the Economy, Stupid!",blue
 We're Right They're Wrong,Rush Limbaugh Is a Big Fat Idiot,blue
 Rush Limbaugh Is a Big Fat Idiot,We're Right They're Wrong,blue
 We're Right They're Wrong,Big Lies,blue
 Big Lies,We're Right They're Wrong,blue
-We're Right They're Wrong,It's Still the Economy, Stupid!,blue
-It's Still the Economy, Stupid!,We're Right They're Wrong,blue
+We're Right They're Wrong,"It's Still the Economy, Stupid!",blue
+"It's Still the Economy, Stupid!",We're Right They're Wrong,blue
 What Liberal Media?,The Great Unraveling,blue
 The Great Unraveling,What Liberal Media?,blue
 What Liberal Media?,Big Lies,blue
 Big Lies,What Liberal Media?,blue
 What Liberal Media?,Bushwhacked,blue
 Bushwhacked,What Liberal Media?,blue
-What Liberal Media?,It's Still the Economy, Stupid!,blue
-It's Still the Economy, Stupid!,What Liberal Media?,blue
+What Liberal Media?,"It's Still the Economy, Stupid!",blue
+"It's Still the Economy, Stupid!",What Liberal Media?,blue
 The Clinton Wars,The Great Unraveling,blue
 The Great Unraveling,The Clinton Wars,blue
 The Clinton Wars,Big Lies,blue
@@ -811,28 +811,28 @@ Weapons of Mass Deception,MoveOn's 50 Ways to Love Your Country,blue
 MoveOn's 50 Ways to Love Your Country,Weapons of Mass Deception,blue
 Weapons of Mass Deception,The Exception to the Rulers,blue
 The Exception to the Rulers,Weapons of Mass Deception,blue
-Dude, Where's My Country?,The Price of Loyalty,blue
-The Price of Loyalty,Dude, Where's My Country?,blue
-Dude, Where's My Country?,Downsize This!,blue
-Downsize This!,Dude, Where's My Country?,blue
-Dude, Where's My Country?,Stupid White Men,blue
-Stupid White Men,Dude, Where's My Country?,blue
-Dude, Where's My Country?,The Best Democracy Money Can Buy,blue
-The Best Democracy Money Can Buy,Dude, Where's My Country?,blue
-Dude, Where's My Country?,The Culture of Fear,blue
-The Culture of Fear,Dude, Where's My Country?,blue
-Dude, Where's My Country?,The Great Unraveling,blue
-The Great Unraveling,Dude, Where's My Country?,blue
-Dude, Where's My Country?,Big Lies,blue
-Big Lies,Dude, Where's My Country?,blue
-Dude, Where's My Country?,The Lies of George W. Bush,blue
-The Lies of George W. Bush,Dude, Where's My Country?,blue
-Dude, Where's My Country?,Bushwhacked,blue
-Bushwhacked,Dude, Where's My Country?,blue
-Dude, Where's My Country?,Hegemony or Survival,blue
-Hegemony or Survival,Dude, Where's My Country?,blue
-Dude, Where's My Country?,Had Enough?,blue
-Had Enough?,Dude, Where's My Country?,blue
+"Dude, Where's My Country?",The Price of Loyalty,blue
+The Price of Loyalty,"Dude, Where's My Country?",blue
+"Dude, Where's My Country?",Downsize This!,blue
+Downsize This!,"Dude, Where's My Country?",blue
+"Dude, Where's My Country?",Stupid White Men,blue
+Stupid White Men,"Dude, Where's My Country?",blue
+"Dude, Where's My Country?",The Best Democracy Money Can Buy,blue
+The Best Democracy Money Can Buy,"Dude, Where's My Country?",blue
+"Dude, Where's My Country?",The Culture of Fear,blue
+The Culture of Fear,"Dude, Where's My Country?",blue
+"Dude, Where's My Country?",The Great Unraveling,blue
+The Great Unraveling,"Dude, Where's My Country?",blue
+"Dude, Where's My Country?",Big Lies,blue
+Big Lies,"Dude, Where's My Country?",blue
+"Dude, Where's My Country?",The Lies of George W. Bush,blue
+The Lies of George W. Bush,"Dude, Where's My Country?",blue
+"Dude, Where's My Country?",Bushwhacked,blue
+Bushwhacked,"Dude, Where's My Country?",blue
+"Dude, Where's My Country?",Hegemony or Survival,blue
+Hegemony or Survival,"Dude, Where's My Country?",blue
+"Dude, Where's My Country?",Had Enough?,blue
+Had Enough?,"Dude, Where's My Country?",blue
 Thieves in High Places,The Best Democracy Money Can Buy,blue
 The Best Democracy Money Can Buy,Thieves in High Places,blue
 Thieves in High Places,The Great Unraveling,blue
@@ -853,24 +853,24 @@ Thieves in High Places,What Liberal Media?,blue
 What Liberal Media?,Thieves in High Places,blue
 Thieves in High Places,Weapons of Mass Deception,blue
 Weapons of Mass Deception,Thieves in High Places,blue
-Thieves in High Places,Dude, Where's My Country?,blue
-Dude, Where's My Country?,Thieves in High Places,blue
+Thieves in High Places,"Dude, Where's My Country?",blue
+"Dude, Where's My Country?",Thieves in High Places,blue
 Shrub,Rush Limbaugh Is a Big Fat Idiot,blue
 Rush Limbaugh Is a Big Fat Idiot,Shrub,blue
 Shrub,Bushwhacked,blue
 Bushwhacked,Shrub,blue
 Shrub,Lies and the Lying Liars Who Tell Them,blue
 Lies and the Lying Liars Who Tell Them,Shrub,blue
-Shrub,It's Still the Economy, Stupid!,blue
-It's Still the Economy, Stupid!,Shrub,blue
+Shrub,"It's Still the Economy, Stupid!",blue
+"It's Still the Economy, Stupid!",Shrub,blue
 Shrub,Thieves in High Places,blue
 Thieves in High Places,Shrub,blue
 Buck Up Suck Up,Power Plays,green
 Power Plays,Buck Up Suck Up,green
 Buck Up Suck Up,Had Enough?,blue
 Had Enough?,Buck Up Suck Up,blue
-Buck Up Suck Up,It's Still the Economy, Stupid!,blue
-It's Still the Economy, Stupid!,Buck Up Suck Up,blue
+Buck Up Suck Up,"It's Still the Economy, Stupid!",blue
+"It's Still the Economy, Stupid!",Buck Up Suck Up,blue
 Buck Up Suck Up,We're Right They're Wrong,blue
 We're Right They're Wrong,Buck Up Suck Up,blue
 The Future of Freedom,Rogue Nation,green
