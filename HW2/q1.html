@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<!-- <script src="js/d3.legend.js"></script> -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+
+<!-- Idea from: http://bl.ocks.org/ccmcc/5182685 -->
+<style>
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+.node {
+  stroke: #fff;
+  stroke-width: .5px;
+}
+
+.node text {
+  pointer-events: none;
+  font: 15px sans-serif;
+  font-weight: bolder;
+}
+
+/* 3 class colors: Red: Conservative, Blue: Liberal, Yellow: Neutral */
+.node.c {
+  fill: red;
+  stroke-opacity: .3;
+  stroke-width: 4;
+}
+
+.node.l {
+  fill: blue;
+  stroke-opacity: .3;
+  stroke-width: 4;
+}
+
+.node.n {
+  fill: yellow;
+  stroke-opacity: .3;
+  stroke-width: 4;
+}
+
+</style>
+</style>
+<body>
+<title>Homework 2</title>
+</head>
+
+<body id="page-top" class="index" onload="graph()">
+  <div class="containter">
+		<!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>Questions<i class="fa fa-bars"></i>
+					</button>
+						<ul class="list-inline">
+							<li><a class="navbar-brand page-scroll" href="#page-top"><strong>Homework 1 Team</strong></a></li>
+						</ul>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+							<li class="hidden">
+									<a href="#page-top"></a>
+							</li>
+							<li>
+								<a class="page-scroll" href="q1.html">Question 1</a>
+							</li>
+							<li>
+								<a class="page-scroll" href="q2.html">Question 2</a>
+							</li>
+					</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div> <!-- Container close-->
+		</nav>
+
+<script>
+
+var linkpath = ("links.csv");
+var nodepath = ("nodes.csv");
+
+var // width = 1000,
+    width = window.innerWidth,
+    // height = 600,
+    height = window.innerHeight;
+
+var color = d3.scale.category20();
+
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+
+// Want to have different labels
+// SETTING UP THE FORCE LAYOUT
+  var force = d3.layout.force()
+  //using width/height from above, but size is mainly det'd by linkDistance and charge
+    .size([width, height])
+    // how far between nodes
+    .linkDistance(80)
+    // changes how close nodes will get to each other. Neg is farther apart.
+    .charge(-450);
+
+
+d3.csv(nodepath, function(nodes) {
+
+  var nodelookup = {};
+  var nodecollector = {};
+
+   count = 0;
+// we want to create a lookup table that will relate the links file and the nodes file
+    nodes.forEach(function(row) {
+    nodelookup[row.node] = count;
+
+    nodecollector[row.node] = {name: row.node, label: row.n_label, group: row.class, degree: row.degree};
+    //console.log(nodecollector)
+
+    //console.log(row.node)
+    //console.log(nodelookup)
+
+    count++;
+ });
+
+//Get all the links out of of the csv in a way that will match up with the nodes
+
+d3.csv(linkpath, function(linkchecker) {
+
+  var linkcollector = {};
+  indexsource = 0;
+  indextarget = 0;
+    count= 0;
+    //console.log(nodelookup['celery'])
+    linkchecker.forEach(function(link) {
+
+	linkcollector[count] = {source: nodelookup[link.source], target: nodelookup[link.target] };
+    // console.log(linkcollector[count])
+	count++
+});
+
+//console.log(linkcollector)
+var nodes = d3.values(nodecollector);
+var links = d3.values(linkcollector);
+
+//console.log(nodes)
+//console.log(links)
+
+  // Create the link lines.
+  var link = svg.selectAll(".link")
+      .data(links)
+     .enter().append("line")
+     .attr("class", "link");
+
+  // Create the node circles.
+  var node = svg.selectAll(".node")
+      .data(nodes)
+    .enter().append("g")
+    .attr("class", "node")
+    .call(force.drag);
+
+ //put in little circles to drag & add size
+  node.append("circle")
+      //.attr("r", 4.5)
+      .attr("r", function(d) {return d.degree; })
+    .attr("class", function(d) { return "node " + d.group; })
+    .call(force.drag);
+
+//add the words
+ node.append("text")
+      .attr("dx", 12)
+      .attr("dy", ".35em")
+      .text(function(d) {
+            if(d.degree > 10) {     // only label nodes with degree > 10
+                return d.label}
+            });
+
+//get it going!
+ force
+      .nodes(nodes)
+      .links(links)
+      .start();
+
+  force.on("tick", function() {
+
+
+    link.attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+//I think that translate changes all of the x and ys at once instead of one by one?
+    node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+
+  })
+
+
+  });
+  });
+
+</script>
+
+<section id="q1">
+  <div class="row">
+    <div class="col-md-6">
+    <div id="graph"></div>
+  </div>
+  </div>
+  </div>
+</section>
+
+</div> <!-- Main Container -->
+
+</body>
+</html>
