@@ -1,0 +1,168 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>D3 in Action Adjacency Matrix</title>
+  <meta charset="utf-8" />
+</head>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="http://d3js.org/queue.v1.min.js" type="text/javascript"></script>
+<style>
+.tick line {
+  shape-rendering: crispEdges;
+  stroke: #000;
+}
+line.minor  {
+  stroke: #777;
+  stroke-dasharray: 2,2;
+}
+path.domain {
+  fill: none;
+  stroke: black;
+}
+.red {
+  color: red;
+}
+.orange {
+  color: orange;
+}
+.yellow {
+  color: yellow;
+}
+.green {
+  color: green;
+}
+.blue {
+  color: blue;
+}
+.purple {
+  color: purple;
+}
+
+dl {
+    width: 350px;
+    background: #fff;
+    border: 1px solid #000;
+    padding: 5px 15px;
+
+}
+
+dt, dd
+{
+display: inline;
+}
+ds
+{
+background-color: blue;
+}
+
+</style>
+<body onload="adjacency()">
+
+<h1>Political book frequently purchased together</h1>
+<h2>Separated into political classes and color coded based on class to class connections</h2>
+
+<dl>
+<dt style="background-color: blue;"> &nbsp   </dt>
+<dd> - Liberal to Liberal<br></dd>
+
+
+<dt style="background-color: purple;"> &nbsp   </dt>
+<dd> - Conservative to Liberal<br></dd>
+
+<dt style="background-color: green;"> &nbsp   </dt>
+<dd> - Liberal to Neutral<br></dd>
+
+<dt style="background-color: red;"> &nbsp   </dt>
+<dd> - Conservative to Conservative<br></dd>
+
+
+
+<dt style="background-color: yellow;"> &nbsp   </dt>
+<dd> - Neutral to Neutral<br></dd>
+
+<dt style="background-color: orange;"> &nbsp   </dt>
+<dd> - Conservative to Neutral<br></dd>
+
+</dl>
+
+
+
+
+<div id="vizcontainer">
+<!-- <svg style="width:500px;height:500px;border:1px lightgray solid;" /> -->
+
+</div>
+  <footer>
+<script>
+
+
+var // width = 1000,
+    width = 2000,
+    // height = 600,
+    height = 2000;
+var color = d3.scale.category20();
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+  function adjacency() {
+    queue()
+    .defer(d3.csv, "nodes.csv")
+    .defer(d3.csv, "edges.csv")
+    .await(function(error, file1, file2) { createAdjacencyMatrix(file1, file2); });
+    function createAdjacencyMatrix(nodes,edges) {
+      var edgeHash = {};
+      for (x in edges) {
+        var id = edges[x].source + "-" + edges[x].target;
+        edgeHash[id] = edges[x];
+        // console.log(id); // Bush vs. the Beltway-1000 Years for Revenge
+      }
+      matrix = [];
+      //create all possible edges
+      for (a in nodes) {
+        for (b in nodes) {
+          var grid = {id: nodes[a].id + "-" + nodes[b].id, x: b, y: a, weight: 0};
+          // console.log(grid)
+          if (edgeHash[grid.id]) {
+            grid.weight = edgeHash[grid.id].class;
+            console.log(grid.weight);
+          }
+          matrix.push(grid);
+        }
+      }
+      d3.select("svg")
+      .append("g")
+      .attr("transform", "translate(300,300)")
+      .attr("id", "adjacencyG")
+      .selectAll("rect")
+      .data(matrix)
+      .enter()
+      .append("rect")
+      .attr("width", 10)
+      .attr("height", 10)
+      .attr("x", function (d) {return d.x * 10})
+      .attr("y", function (d) {return d.y * 10})
+      .style("stroke", "black")
+      .style("stroke-width", "1px")
+      .style("fill", "red")
+      .style("fill", function (d) {return d.weight})
+      .style("fill-opacity", function (d) {return d.weight * .2})
+      .on("mouseover", gridOver)
+      var scaleSize = nodes.length * 10;
+      var nameScale = d3.scale.ordinal().domain(nodes.map(function (el) {return el.id})).rangePoints([0,scaleSize],1);
+      xAxis = d3.svg.axis().scale(nameScale).orient("top").tickSize(4);
+      yAxis = d3.svg.axis().scale(nameScale).orient("left").tickSize(4);
+      d3.select("#adjacencyG").append("g").call(xAxis)
+      .selectAll("text")
+      .style("text-anchor", "end")
+	  .style("font-size", "60%")
+      .attr("transform", "translate(-5,-3) rotate(55)");
+      d3.select("#adjacencyG").append("g").call(yAxis)
+	  .style("font-size", "60%");
+      function gridOver(d,i) {
+        d3.selectAll("rect").style("stroke-width", function (p) {return p.x == d.x || p.y == d.y ? "3px" : "1px"})
+      }
+    }
+  }
+  </script>
+  </footer>
+</body>
+</html>
