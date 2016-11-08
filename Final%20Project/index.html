@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.counties {
+  fill: none;
+}
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+</style>
+<svg width="960" height="600"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script>
+
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var rgo = d3.map();
+var color = d3.map();
+var names = d3.map();
+
+var path = d3.geoPath();
+
+/*var color = d3.scaleThreshold()
+    .domain(d3.range(2, 10))
+    .range(["#993955","#AE76A6","#A3C3D9","#CCD6EB","#E9ECF5","#2A1018","#30212E","#2D363C","#383B41","#404143","#D0A5B1","#DAC0D6","#D5E3ED","#E7ECF5","#F5F6FA", "#987981","#9F8C9C","#9BA6AD","#A9ACB3","#B3B3B6","#5F4B51","#645862","#61686C","#696C70"]);
+    //.range(d3.schemeBlues[5]);*/
+
+var g = svg.append("g")
+    .attr("class", "key")
+    .attr("transform", "translate(0,40)");
+
+g.selectAll("rect")
+
+d3.queue()
+    .defer(d3.json, "us-10m.v1.json")
+    .defer(d3.tsv, "temp3.tsv", function(d) { rgo.set(d.id, d.rgo_code); color.set(d.id, d.Color);  names.set(d.id, d.name);})
+    .await(ready);
+	
+
+function ready(error, us) {
+  if (error) throw error;
+
+  svg.append("g")
+    .attr("class", "counties")
+    .selectAll("path")
+    .data(topojson.feature(us, us.objects.counties).features)
+    .enter().append("path")
+   // .attr("fill", rgo.get(d.id)["color"])
+    .attr("fill", function(d) { return color.get(d.id); })
+    .attr("d", path)
+    .append("title")
+    .text(function(d) { return "RGO Code:" + rgo.get(d.id) + "\nName:" + names.get(d.id); });
+
+  svg.append("path")
+      .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
+      .attr("class", "states")
+      .attr("d", path);
+}
+
+</script>
